@@ -1,0 +1,40 @@
+.testimonial-carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #f1eee4;
+  padding: 10%;
+}
+
+.testimonial {
+  display: none;
+  text-align: center;
+  width: 100%;
+}
+
+.testimonial.active {
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carousel-btn.prev {
+  left: -50px;
+}
+
+.carousel-btn.next {
+  right: -50px;
+}

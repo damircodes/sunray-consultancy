@@ -1,0 +1,49 @@
+<section className="flex h-screen w-screen max-w-7xl mx-auto bg-white text-black text-9xl">
+        <div className="bg-red-200 h-full sm:w-1/2">
+          <h1 className="text-7xl">Stressed About Your Tax?</h1>
+          <h1 className="text-4xl">Not with us.</h1>
+        </div>
+        <div className="full w-0 sm:w-1/2 collapse sm:visible sm:full">
+          <Image src={hero} alt="hero" width={600} />
+        </div>
+      </section>
+
+
+
+      <ul className="flex flex-row text-xl gap-x-8 font-nunito-sans font-bold font-light items-center">
+          <div className="w-0 collapse lg:gap-x-8 lg:w-full flex lg:visible">
+            <Link href="/about">
+              <li>About</li>
+            </Link>
+            <Link href="/blog">
+              <li>Blog</li>
+            </Link>
+            <Link href="/find-us">
+              <li>Find Us</li>
+            </Link>
+            <Link href="/services">
+              <li>Services</li>
+            </Link>
+            <Link href="/contact">
+              <li className="border border-2 border-black rounded-md px-5 bg-yellow-500 font-medium">
+                Contact
+              </li>
+            </Link>
+          </div>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.3}
+              stroke="currentColor"
+              className="w-8 h-8 text-black"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </li>
+        </ul>
